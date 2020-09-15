@@ -8,7 +8,7 @@ const NewsPage = ({ match }) => {
   return (
     <>
       <Categories />
-      <NewsList />
+      <NewsList category={category} />
     </>
   );
 };
